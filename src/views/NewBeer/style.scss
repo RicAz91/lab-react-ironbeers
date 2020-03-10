@@ -1,0 +1,30 @@
+.newBeer__form {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  textarea,
+  input {
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  label {
+    text-align: left;
+    color: grayscale($color: #272626);
+    margin-bottom: 0.5em;
+  }
+  button {
+    background-color: rgba(43, 43, 223, 0.863);
+    border-radius: 20px;
+    width: 200px;
+
+    padding: 15px;
+  }
+}
+.newBeer__input {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-self: center;
+}

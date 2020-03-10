@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import './style.scss';
+import {Link} from 'react-router-dom';
 
 import { load as loadSingleBeer } from './../../sevices/beers';
 
@@ -33,6 +34,10 @@ class SingleBeer extends Component {
 
     return (
       <div className="beer__single">
+      <header>
+<Link to={'/'}><button className='buttonHome'>Home</button></Link>
+
+        </header>
                 {(beer && (
           <Fragment>
             <figure className="beer__single__image">
