@@ -9,6 +9,7 @@ const BeerItem = props => {
   console.log(props);
   return (
     
+   
     <Link to={`/beers/${props._id}`} className="beer__item">
       <figure className="beer__image">
         <img src={props.image_url} alt={props.name} />

@@ -21,6 +21,7 @@ class SingleBeer extends Component {
     const id = this.props.match.params.beerId;
     
     loadSingleBeer(id)
+    
       .then(beer => {
         this.setState({ beer });
       })
